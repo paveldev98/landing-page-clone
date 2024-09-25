@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap');
+
+h3 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 22px;
+  color: #2f3349;
+}
+
+.srvParagraph {
+  color: #2f3349;
+  font-size: 18px;
+  font-family: 'Figtree', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  max-width: 75%;
+}
+
+.servicesBtn {
+  font-family: 'Figtree', sans-serif;
+  font-size: 15px;
+  padding: 15px 25px;
+  border: 0.8px solid rgba(47, 51, 73, 0.23);
+  font-weight: 700;
+  line-height: 15px;
+  width: 246px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.servicesBtn:hover {
+  color: white;
+  background: #2f3349;
+}
